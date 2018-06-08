@@ -1,0 +1,22 @@
+body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    padding: 10px;
+    background-color: red;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    
+}
