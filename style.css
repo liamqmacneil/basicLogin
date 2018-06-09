@@ -3,11 +3,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("bg2.png")
 }
 
 div {
-    padding: 10px;
-    background-color: red;
+    padding: 40px;
+    background-color: wheat;
+    border-radius: 10px;
     width: 300px;
     margin: 0 auto;
 }
@@ -18,5 +20,9 @@ form {
 }
 
 input {
-    
+   margin-bottom: 20px; 
+}
+
+input:last-child {
+    margin-bottom: 0;
 }
