@@ -8,21 +8,34 @@ body {
 
 div {
     padding: 40px;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.75);
     border-radius: 10px;
     width: 300px;
     margin: 0 auto;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.input {
+    margin-bottom: 20px; 
 }
 
-input {
-   margin-bottom: 20px; 
-}
-
-input:last-child {
+.input:last-child {
     margin-bottom: 0;
+}
+
+.email {
+    display: block;
+    width: 100%;
+    outline-width: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.submit {
+    float: right;
+    border:none;
+    border-radius: 5px;
+    background-color: #2acaff;
+    padding: 10px;
+    box-shadow: 0px 3px #22a8d4;
 }
