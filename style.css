@@ -1,17 +1,23 @@
-body {
+.main {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)), url('bg2.png');
+}
+
+.main {
     height: 90vh;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("bg2.png")
 }
 
-div {
+.formContainer {
     padding: 40px;
-    background-color: rgba(245, 222, 179, 0.75);
+    background-color: rgba(255, 255, 255, 0.75);
     border-radius: 10px;
     width: 300px;
     margin: 0 auto;
+    box-shadow: 1px 1px 1px 1px #d4d4d4;
 }
 
 .input {
@@ -32,10 +38,15 @@ div {
 }
 
 .submit {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+
     float: right;
     border:none;
-    border-radius: 5px;
-    background-color: #2acaff;
-    padding: 10px;
-    box-shadow: 0px 3px #22a8d4;
+    border-radius: 4px;
+    background-color: #758eff;
+    padding: 5px 10px;
+    box-shadow: 0px 3px #5d68ff;
+    text-align: center;
 }
