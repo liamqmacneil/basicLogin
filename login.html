@@ -7,14 +7,24 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Login</title>
 </head>
-<body class="main">
-    <div class="formContainer">
-        <form class="formInput">
-            <input class="input email"    type="text">
-            <input class="input submit"   type="submit" value="NEXT">
-        </form>
-    </div>
+<body class="content">
+        <div class="formDisplay">
+            <div class="shadow">
+                <div class="hideRight"></div>
+                <div class="hideLeft"></div>
+                <div class="errorMsg">Email is not valid</div>
+                <form class="formInput" method="post">
+                    <input class="input email" type="text" name="email">
+                    <div class="fancyInputFade"></div>
+                    <div   class="fancyBorder"></div>
+                    <input class="input submit" type="submit" value="NEXT">
+                </form>
+                <div class="fancyEmail">Email</div>
+                <div class="fancyPassword">Password</div>
+            </div>
+        </div>
 </body>
 </html>
