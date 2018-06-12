@@ -6,21 +6,31 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: all 2s ease-out;
+    font-family: 'Lato', sans-serif;
 }
 
 .formDisplay {
-    width: 300px;
+    width: 380px;
     margin: 0 auto;
 }
 
 .shadow {
     position: relative;
-    font-family: 'Lato', sans-serif;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0);
     border-radius: 10px;
     width: 300px;
     box-shadow: 1px 1px 1px 1px #d4d4d4;
+    transition: all 1s ease-out;
+    opacity: 1;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(48, 48, 48);
 }
 
 .input {
@@ -33,6 +43,17 @@
 
 .email {
     display: block;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(54, 54, 54);
+    width: 100%;
+    outline-width: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+.password {
+    display: none;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(54, 54, 54);
     width: 100%;
@@ -121,7 +142,15 @@
 }
 
 .fancyInputFade {
-    
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(54, 54, 54);
+    width: 0;
+    height: 0;
+    outline-width: 0;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid gray;
 }
 
 .submit {
@@ -144,6 +173,25 @@
     position: relative;
     color: rgb(255, 78, 78);
     top: 50px;
+}
+
+.loginContent {
+    margin: 0 auto;
+    color: rgb(48, 48, 48);
+    position: relative;
+    height: 0;
+    opacity: 0;
+    color: rgb(61, 61, 61);
+    transition: 1s;
+    text-align: center;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+
+.fadeOut {
+    opacity: 0;
 }
 
 
