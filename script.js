@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $(".email").focus(function() {
     $(".input").focus(function() {
         $(".fancyBorder").addClass("fancyBorderFocus")
         $(".fancyEmail").addClass("fancyTextAnim")
